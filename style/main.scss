@@ -14,8 +14,8 @@ body {
 #time__tracking__dashboard {
   background-color: hsl(226, 43%, 10%);
 
-  width: 80vw;
-  height: 80vh;
+  width: 100vw;
+  height: 100vh;
 
   display: flex;
   justify-content: center;
@@ -27,8 +27,8 @@ body {
     flex-direction: column;
     background-color: hsl(235, 46%, 20%);
     border-radius: 1rem;
-    height: 60%;
-    width: 25%;
+    height: 40%;
+    width: 15%;
     #about {
       display: flex;
       flex-direction: column;
@@ -75,6 +75,14 @@ body {
 
 #times {
   background-color: orange;
-  height: 30%;
-  width: 40%;
+  height: 40%;
+  width: 60%;
+  display: flex;
+  gap: 2rem;
+
+  .data__table {
+    background-color: red;
+    width: 33%;
+    height: 50px;
+  }
 }

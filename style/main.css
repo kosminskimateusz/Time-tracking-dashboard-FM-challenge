@@ -13,8 +13,8 @@ body {
 
 #time__tracking__dashboard {
   background-color: hsl(226deg, 43%, 10%);
-  width: 80vw;
-  height: 80vh;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,8 +25,8 @@ body {
   flex-direction: column;
   background-color: hsl(235deg, 46%, 20%);
   border-radius: 1rem;
-  height: 60%;
-  width: 25%;
+  height: 40%;
+  width: 15%;
 }
 #time__tracking__dashboard #info #about {
   display: flex;
@@ -67,8 +67,15 @@ body {
 
 #times {
   background-color: orange;
-  height: 30%;
-  width: 40%;
+  height: 40%;
+  width: 60%;
+  display: flex;
+  gap: 2rem;
+}
+#times .data__table {
+  background-color: red;
+  width: 33%;
+  height: 50px;
 }
 
 /*# sourceMappingURL=main.css.map */
